@@ -22,7 +22,7 @@ if($element[])
 },$file);*/
 
 
-        return view('index')->with('file',$file);
+        return view('invoice_table')->with('file',$file);
 
     }
     public function extractText(Request $request)
